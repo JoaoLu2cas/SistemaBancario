@@ -37,7 +37,7 @@ def lookBalence():
         print('O saldo do banco é R$',balance)
 
 def main():
-    opçao = bool(int(input('Deseja ver ou criar um programa (1) ou fechar o programa(0): ')))
+    opçao = (int(input('Deseja ver ou criar um programa (1) ou fechar o programa(0): ')))
     while opçao :
         creatAccount()
         lookBalence()
